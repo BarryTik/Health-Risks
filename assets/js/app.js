@@ -178,7 +178,7 @@ d3.csv("./assets/data/data.csv").then(function(healthData, err){
         .attr("opacity", ".5");
 
 
-    var circleText = chartGroup.selectAll("text")
+    var circleText = chartGroup.selectAll("null")
         .data(healthData)
         .enter()
         .append("text")
